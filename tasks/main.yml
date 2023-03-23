@@ -1,6 +1,4 @@
 ---
-# tasks file for ansible_k3s_single
----
 - name: Check if k3s Service Exists
   stat: path=/etc/systemd/system/k3s.service
   register: service_status
